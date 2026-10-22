@@ -1,0 +1,9 @@
+[project]
+name = "triton_kernels"
+version = "0.1.0"
+description = "Triton kernel examples"
+requires-python = ">=3.8"
+dependencies = [
+    "torch",
+    "triton",
+]
